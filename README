@@ -1,0 +1,16 @@
+Installation steps :
+
+1. npm i or npm install
+
+2. npm install -g nodemon 
+
+3. npm install --save-dev nodemon
+
+4. nodemon or node . or node app.js
+
+5. http://localhost:8080
+
+
+Created By :
+   
+   Nitish V 
