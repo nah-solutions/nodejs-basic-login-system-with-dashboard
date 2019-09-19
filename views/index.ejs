@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Vuefox Registration</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="/Assets/images/logo.jpg"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/Assets/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/Assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/Assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/Assets/fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/Assets/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="/Assets/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/Assets/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/Assets/vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="/Assets/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/Assets/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/Assets/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #5f694e;">
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="login100-more" href="http://www.jnn.edu" style="background-image: url('/Assets/images/logo.jpg');"></div>
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+            <center>
+                <img height="100" width="100" src="https://image3.mouthshut.com/images/imagesp/925716857s.png">
+                </center>
+				<form action="/register" method="POST" class="login100-form validate-form" >
+					<span class="login100-form-title p-b-59">
+					cryptography and network security Workshop(vuefox coders)
+					</span>
+                    <% include ./partials/messages %>
+
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">Full Name</span>
+						<input class="input100" type="text" name="name" placeholder="Name...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<span class="label-input100">Email</span>
+						<input class="input100" type="text" name="email" placeholder="Email addess...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Username is required">
+						<span class="label-input100">College Name </span>
+						<input class="input100" type="text" name="College" placeholder="Enter College Name">
+						<span class="focus-input100"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate="phone Number is required">
+						<span class="label-input100">Mobile Number </span>
+						<input class="input100" type="text" name="Phone" placeholder="Mobile Number">
+						<span class="focus-input100"></span>
+					</div>
+
+                     <div class="wrap-input100 validate-input" data-validate="Dob is required">
+						<span class="label-input100"> Date Of Birth </span>
+						<input class="input100"  type="date" name="birth_date"  placeholder="Mobile Number">
+						<span class="focus-input100"></span>
+					</div>
+
+                     <div class="wrap-input100 validate-input" data-validate="Department is required">
+						<span class="label-input100"> Department </span>
+						<input class="input100" type="text" name="course" placeholder="Enter Department">
+						<span class="focus-input100"></span>
+					</div>                    
+					<div class="flex-m w-full p-b-33">
+						<div class="contact100-form-checkbox">
+							
+						</div>
+
+						
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button type="submit" class="login100-form-btn">
+								Register
+							</button>
+						</div>
+                        </form>
+
+
+						<a href="/login/admin" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+                        <br><br>
+							Admin Login
+							<i class="fa fa-long-arrow-right m-l-5"></i>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+<!--===============================================================================================-->
+	<script src="/Assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/Assets/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/Assets/vendor/bootstrap/js/popper.js"></script>
+	<script src="/Assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/Assets/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/Assets/vendor/daterangepicker/moment.min.js"></script>
+	<script src="/Assets/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="/Assets/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="/Assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

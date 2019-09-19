@@ -1,0 +1,42 @@
+{
+  "name": "work_shop",
+  "version": "1.0.0",
+  "description": "work shop",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "workshop",
+    "nodejs"
+  ],
+  "author": "Nitish V",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "domain-router": "^0.9.6",
+    "ejs": "^2.6.2",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "html": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.2",
+    "mongoose-stamp": "0.0.3",
+    "nexmo": "^2.4.1",
+    "node-ses": "^2.2.1",
+    "nodemailer": "^6.2.1",
+    "nodemailer-mailgun-transport": "^1.4.0",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "qrcode": "^1.3.4",
+    "twilio": "^3.33.0"
+  }
+}
